@@ -1,5 +1,5 @@
 import './App.css'
-
+import Counter from './components/Counter/Counter'
 function App() {
   // default function 
   function handleClick() {
@@ -14,6 +14,10 @@ function App() {
     alert("Summation of 10 + 2 is " + (a+b));
   }
 
+
+
+
+
   return (
     <>
      <h2>React Core Concepts</h2>
@@ -24,6 +28,9 @@ function App() {
      {/* More Easier Way */}
      <button className='margin' onClick={() => {add(10, 2)}}>The Summation of 10 and 2  </button>
 
+    <br /> <br />
+     {/* Counter Data load */}
+     <Counter></Counter>
 
     </>
   )
