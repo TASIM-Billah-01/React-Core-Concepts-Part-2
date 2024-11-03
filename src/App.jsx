@@ -1,6 +1,8 @@
 import './App.css'
 import Counter from './components/Counter/Counter'
 import Team from './components/Team/Team'
+import User from './components/Users/User'
+import UserDetails from './components/Users/UserDetails'
 function App() {
   // default function 
   function handleClick() {
@@ -33,6 +35,7 @@ function App() {
      {/* Counter Data load */}
      <Counter></Counter>
      <Team></Team>
+     <User></User>
 
     </>
   )

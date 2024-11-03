@@ -1,0 +1,11 @@
+.Users {
+    border: 2px solid beige;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.details {
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin-top: 5px;
+}
